@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654052523541",
+    "project_id": "bards-52345",
+    "storage_bucket": "bards-52345.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654052523541:android:2fd639fda550422747581c",
+        "android_client_info": {
+          "package_name": "com.vektorel.bards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654052523541-ccahe032psu65vpbvk2pmptko58qntpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNIgwX1aqxUNUaEt_Ns_Zs_3JzMjvCwdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654052523541-ccahe032psu65vpbvk2pmptko58qntpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

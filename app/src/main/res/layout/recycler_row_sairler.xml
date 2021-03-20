@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#3B488D"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/recycler_row_sairler_mail"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

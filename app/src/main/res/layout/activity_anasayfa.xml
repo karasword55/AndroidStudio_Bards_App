@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpageresim"
+
+    tools:context=".Anasayfa">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="145dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="76dp"
+        android:onClick="sairlerclick"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="128dp"
+            android:layout_height="89dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/atma_light"
+            android:gravity="center"
+            android:text="ŞAİRLER"
+            android:textAlignment="center"
+            android:textColor="#C5B0CC"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="145dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="siirlerclick"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/atma_light"
+            android:gravity="center"
+            android:text="ŞİİRLER"
+            android:textAlignment="center"
+            android:textColor="#C5B0CC"
+            android:textSize="33sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_width="145dp"
+        android:layout_height="107dp"
+        android:background="#303968"
+        android:layout_marginBottom="34dp"
+        android:onClick="siiryazclick"
+        app:cardCornerRadius="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="131dp"
+            android:layout_height="103dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/atma_light"
+            android:gravity="center"
+            android:text="ŞİİR YAZ"
+            android:textAlignment="center"
+            android:textColor="#C5B0CC"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="255dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bad_script"
+        android:gravity="center"
+        android:text="BARDS"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
